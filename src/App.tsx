@@ -22,6 +22,7 @@ function App() {
 
   return (
     <div>
+      <h1>TypeScript Todo List</h1>
       <NewTodo onAddTodo={addTodoHandler} />
       <Todos removeTodo={removeTodoHandler} items={todos} />
     </div>
